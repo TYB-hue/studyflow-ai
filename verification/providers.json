@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-14T11:36:02.973Z",
+  "results": [
+    {
+      "name": "Gemini PDF understanding",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "name": "Gemini 768-dimensional embeddings",
+      "passed": true,
+      "dimensions": 768
+    },
+    {
+      "name": "Groq summary",
+      "passed": true
+    },
+    {
+      "name": "Groq quiz",
+      "passed": true
+    },
+    {
+      "name": "Groq flashcards",
+      "passed": true
+    },
+    {
+      "name": "Groq grounded chat",
+      "passed": true
+    }
+  ]
+}

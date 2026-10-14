@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-14T12:27:10.959428+00:00",
+  "unitAndDatabaseTests": {
+    "passed": 40,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "npmAudit": {
+    "vulnerabilities": 0
+  },
+  "clientBundleSecretScan": "passed",
+  "browserChecks": [
+    "responsive dashboard",
+    "library search",
+    "quiz scoring",
+    "flashcard flipping and navigation",
+    "sample cited chat",
+    "upload dialog focus and Escape"
+  ],
+  "liveProviderChecks": "verification/providers.json",
+  "supabaseAuth": "project reachable; email sign-up enabled",
+  "supabaseSchema": "001 and 002 applied (002 confirmed by user)",
+  "liveEndToEnd": "User completed a live quiz in the existing deployment; new Office extraction and upgrade covered by tests; no personal files uploaded during verification.",
+  "runtime": "Node 23.10.0 on this host; Node 22/24 LTS recommended",
+  "httpGuards": {
+    "unauthenticated": 401,
+    "crossOrigin": 403
+  },
+  "httpPages": {
+    "demoDashboard": 200,
+    "documentWorkspace": 200,
+    "login": 200,
+    "protectedDashboard": 307
+  },
+  "officeUploads": "DOCX paragraphs and PPTX slide text extraction verified; diagram images require PDF",
+  "uploadLimitBytes": 26214400,
+  "responsiveChecks": {
+    "dashboardWidths": [
+      320,
+      440,
+      1280
+    ],
+    "workspaceWidths": [
+      320
+    ],
+    "horizontalOverflow": false
+  },
+  "liveLongLectureChecks": {
+    "syntheticPages": 65,
+    "quiz": "passed",
+    "flashcards": "passed",
+    "outputTokenAllowance": 2500
+  },
+  "blankPageRegression": "passed: blank pages skipped with original page numbers retained"
+}
